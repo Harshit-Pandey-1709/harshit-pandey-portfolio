@@ -153,6 +153,8 @@ body::before {
     z-index: 1;
     opacity: 0.8;
     animation: pulse 6s ease-in-out infinite;
+    pointer-events: none;   /* 👈 THIS IS THE FIX */
+    z-index: 1;
 }
 
 .silhouette {
@@ -504,4 +506,9 @@ h2 {
 .cert-card:hover::after {
     top: 0;
     left: 0;
+
+}
+.hero-left {
+    position: relative;
+    z-index: 10;
 }
