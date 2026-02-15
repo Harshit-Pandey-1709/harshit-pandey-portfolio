@@ -314,19 +314,51 @@ h2 {
 /* ============================= */
 
 @media (max-width: 900px) {
+
     .hero {
         flex-direction: column;
+        justify-content: center;
         text-align: center;
-        padding-top: 120px;
+        padding: 120px 20px 60px 20px;
+        min-height: auto;
+    }
+
+    .hero-left {
+        max-width: 100%;
     }
 
     .hero-name {
-        font-size: 55px;
+        font-size: 42px;
+        letter-spacing: -1px;
+    }
+
+    .hero-tagline {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .hero-buttons a {
+        display: block;
+        margin: 10px auto;
+        width: 200px;
+    }
+
+    .hero-right {
+        margin-top: 40px;
     }
 
     .silhouette {
-        margin-top: 40px;
+        width: 260px;
+        height: 340px;
     }
+
+    .nebula-glow {
+        width: 320px;
+        height: 320px;
+    }
+.hero {
+    gap: 20px;
+}
 }
 
 /* ABOUT SECTION – glass effect to match hero */
@@ -520,6 +552,7 @@ a {
     z-index: 10;
     cursor: pointer;
 }
+
 
 
 
