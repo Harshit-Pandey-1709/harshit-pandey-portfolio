@@ -513,4 +513,10 @@ h2 {
     position: relative;
     z-index: 10;
 }
+a {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
 
